@@ -1,0 +1,140 @@
+body{
+    background-color:#070830;
+    font-family: Candara;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+#enlaceKepri{
+    color: yellow;
+}
+
+.separador{
+    background-color: #dae7f0;
+    margin-left:60px;
+    margin-right:60px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align:center;
+    background-color: #dddddd;
+}
+
+.centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------Botones----------------------- */
+
+.button {
+    background-color: #edc537;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px;
+    cursor: pointer; /* Cambiar el icono del mouse al estar sobre el botón */
+    font-family: inherit;
+}
+.button:hover {
+    background-color: #ed912d; /* Green */
+    color: #FFFFFF;
+}
+
+.small-btn {
+    /*width: 50px;
+    height: 30px;*/
+    font-size: 12px;
+}
+
+.medium-btn {
+    font-size: 18px;
+    padding: 0px;
+    border:4px solid #c237cd
+}
+
+.big-btn {
+    font-size: 25px;
+    width: 50vw;
+}
+
+/*------------------------Juegos----------------------- */
+
+.juegos{  
+    background-image: url("assets/fondo.png");
+}
+
+.juego{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    margin:60px;
+    font-size:22px;
+    color:white;
+}
+.contenedor {
+  position: relative;
+  top: 0;
+  left: 0;
+  width:150px;
+  height:150px;
+  display: inline-block;
+ border-radius: 15px;
+}
+
+.contenido {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  image-rendering: pixelated;
+}
+
+/*------------------------Enlaces----------------------- */
+.link{
+    margin-left: 20px;
+    text-decoration:none;
+    color:#7a540e;
+}
+
+/*------------------------Canvas----------------------- */
+
+.columnaIzq {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  padding: 10px;
+}
+
+.columnaDer {
+  float: right;
+  width: 20%;
+  padding: 10px;
+}
+
+.controles {
+
+  padding: 10px;
+}
+
+figcaption{
+    text-align: right;
+}
