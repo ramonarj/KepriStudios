@@ -2,6 +2,7 @@ body{
     background-color:#070830;
     font-family: Candara;
     font-weight: bold;
+    color: rgb(19, 9, 93);
 }
 h1 {
     text-align: center;
@@ -16,18 +17,68 @@ h3 {
 #enlaceKepri{
     color: yellow;
 }
+#enlaceKepri:hover{
+    color: red;
+}
 
+#keprigames{
+    background-image: url("assets/fondo.png");
+}
+
+.logoInicio{
+    width:90vw;
+    padding-top: 10vh;
+}
+
+.logoGames{
+    width:45vw;
+}
+
+/*------------------------Barra superior----------------------- */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b3c8e0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-decoration: none;
+  color:rgb(19, 9, 93);
+}
+
+li a:hover {
+  background-color: #e1d04f;
+}
+
+.barraSuperior{
+    position: fixed;
+    width:100vw;
+    top: 0px;
+    z-index: 7;
+}
+
+/* - -  Otros - - */
 .separador{
-    background-color: #dae7f0;
-    margin-left:60px;
+    background-color: #b3c8e0;
+        margin-left:60px;
     margin-right:60px;
-    margin-top:30px;
-    margin-bottom: 30px;
 }
 
 footer {
     text-align:center;
-    background-color: #dddddd;
+    background-color: #b3c8e0;
 }
 
 .centrado {
@@ -74,67 +125,19 @@ footer {
 /*------------------------Juegos----------------------- */
 
 .juegos{  
-    background-image: url("assets/fondo.png");
+   background-image: url("assets/ap-fondo.png");
 }
 
 .juego{  
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .descripcion{
     margin:60px;
     font-size:22px;
     color:white;
-}
-.contenedor {
-  position: relative;
-  top: 0;
-  left: 0;
-  width:150px;
-  height:150px;
-  display: inline-block;
- border-radius: 15px;
-}
-
-.contenido {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: grid;
-  image-rendering: pixelated;
-}
-
-/*------------------------Enlaces----------------------- */
-.link{
-    margin-left: 20px;
-    text-decoration:none;
-    color:#7a540e;
-}
-
-/*------------------------Canvas----------------------- */
-
-.columnaIzq {
-  float: left;
-  width: 20%;
-  height: 100vh;
-  padding: 10px;
-}
-
-.columnaDer {
-  float: right;
-  width: 20%;
-  padding: 10px;
-}
-
-.controles {
-
-  padding: 10px;
-}
-
-figcaption{
-    text-align: right;
 }

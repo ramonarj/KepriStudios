@@ -8,25 +8,33 @@
     <style type="text/css">
         body {
             margin: 0;
-
         }
     </style>
 </head>
 <body>
     <a href='/'> 
-        <img src="assets/banner_claro.png" class="centrado" alt="Kepri Studios"</img>
+        <img src="assets/banner_claro.svg" class="centrado logoInicio" alt="Kepri Studios"</img>
     </a>
+    <!---- Barra superior---->
+    <div id= "barra" class="barraSuperior">
+        <ul>
+            <li> <a href=#juegos>Azulejo Parejo</a> </li>
+            <li> <a href=#lanzanos>Lánzanos</a> </li>
+            <li> <a href=#keprigames>Kepri Games</a> </li> 
+            <li> <a href="#contacto">Contacto</a> </li>
+        </ul>
+    </div>
 
-    <!---- Juegos ---->
-    <h2 class="separador">Nuestros juegos originales</h2>
-    <div id= "juegos" class="juegos">
+    <!-- Juegos-->
+     <h2 class="separador" style="background-image: url('assets/fondo.png');">Nuestros juegos originales</h2>
+    <div class="juegos" id= "juegos">
         <iframe frameborder="0" src="https://itch.io/embed/3654868?linkback=true&amp;bg_color=ffffff&amp;link_color=e9513c" width="552" height="167" class="juego">
             <a href="https://kepri-studios.itch.io/azulejo-parejo">Azulejo Parejo by Kepri Studios</a>
         </iframe>
     </div>
 
     <!-- Crowdfunding Lánzanos -->
-    <div id= "lanzanos" >
+    <div id= "lanzanos">
         <h2 class="separador">Ayúdanos a conseguir nuestros objetivos</h2>
         <iframe src='https://www.lanzanos.com/apoya/5254/1/' width="200" height="285" frameborder='0' class="centrado"> </iframe>
     </div>
@@ -35,7 +43,7 @@
     <div id= "keprigames">
         <h2 class="separador">_</h2>
         <a href="https://keprigames.com">
-            <img src="assets/kepri-games.svg" alt="Kepri Games" class="centrado"</img>
+            <img src="assets/kepri-games.svg" alt="Kepri Games" class="centrado logoGames" </img>
         </a>
         <p class="descripcion">
             <a id="enlaceKepri" href="https://keprigames.com">Kepri Games</a> es un portal de juegos online para que cualquier persona pueda disfrutar de juegos clásicos y no tan
@@ -45,13 +53,13 @@
     </div>
 
     <!---Pie de página--->
-    <footer>
+    <footer id="contacto">
         <p>Contacto:<br>
             <a href="mailto:info@keprigames.com">info@keprigames.com</a>
         </p>
-        <p>
+        <cite style="font-weight: lighter;">
             Un día sin jugar es un día perdido
-        </p>
+        </cite>
     </footer>
 </body>
 </html>
