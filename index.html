@@ -18,11 +18,18 @@
     <!---- Barra superior---->
     <div id= "barra" class="barraSuperior">
         <ul>
-            <li> <a href=#juegos>Azulejo Parejo</a> </li>
-            <li> <a href=#lanzanos>Lánzanos</a> </li>
+            <li> <a href=#juegos>Quiénes somos</a> </li>
+            <li> <a href=#juegos>Juegos</a> </li>
             <li> <a href=#keprigames>Kepri Games</a> </li> 
+            <li> <a href=#herramientas>Herramientas</a> </li> 
             <li> <a href="#contacto">Contacto</a> </li>
         </ul>
+    </div>
+
+    <!-- Juegos-->
+    <h2 class="separador">¿Quiénes somos?</h2>
+    <div id= "juegos" class="descripcion">
+        <p>Somos un estudio unipersonal situado en Sevilla, España.</p>
     </div>
 
     <!-- Juegos-->
@@ -33,12 +40,6 @@
         </iframe>
     </div>
 
-    <!-- Crowdfunding Lánzanos -->
-    <div id= "lanzanos">
-        <h2 class="separador">Ayúdanos a conseguir nuestros objetivos</h2>
-        <iframe src='https://www.lanzanos.com/apoya/5254/1/' width="200" height="285" frameborder='0' class="centrado"> </iframe>
-    </div>
-
     <!-- Kepri Games -->
     <div id= "keprigames">
         <h2 class="separador">_</h2>
@@ -46,9 +47,45 @@
             <img src="assets/kepri-games.svg" alt="Kepri Games" class="centrado logoGames" </img>
         </a>
         <p class="descripcion">
-            <a id="enlaceKepri" href="https://keprigames.com">Kepri Games</a> es un portal de juegos online para que cualquier persona pueda disfrutar de juegos clásicos y no tan
+            <a class="enlaceKepri" href="https://keprigames.com">Kepri Games</a> es un portal de juegos online para que cualquier persona pueda disfrutar de juegos clásicos y no tan
             clásicos desde su navegador, de forma gratuita y cuando quiera. Puedes ayudar a que siga realizándose si aportas económicamente
             desde la plataforma 'Lánzanos'. Además, ¡podrás elegir el tipo de apoyo que quieras dar y la recompensa que obtendrás como mecenas!
+        </p>
+
+        <!-- Crowdfunding Lánzanos -->
+        <div id= "lanzanos">
+            <h4 class="recauda">Ayúdanos a conseguir nuestro objetivo de financiación</h4>
+            <iframe src='https://www.lanzanos.com/apoya/5254/1/' width="200" height="285" frameborder='0' class="centrado"> </iframe>
+        </div>
+    </div>
+
+    <!-- Herramientas -->
+    <h2 class="separador">Nuestras herramientas</h2>
+    <div id= "herramientas">
+        <p class="descripcion">¡Atención! Estas herramientas se encuentran todavía en proceso de desarrollo. 
+            Ayúdanos a mejorarlas enviando comentarios a <a class="enlaceKepri" href="mailto:contacto@keprigames.com">contacto@keprigames.com</a>
+            o con un <em>Pull Request</em> en el correspondiente repositorio.
+        </p>
+        <h3 class="descripcion centrado">
+            <a alt="Kepri2D" class="enlaceKepri h3" href="https://github.com/ramonarj/JuegosSDL">Kepri2D</a>
+        </h3>
+        <p class="descripcion centrado">Motor 2D sencillo construido en C++, basado en la biblioteca SDL para los gráficos (SDL_Image), audio (SDL_Mixer)
+            y texto (SDL_TTF). Próxima implementación de multijugador online con SDL_Net. El motor de físicas, y el gestor de estados de juego son propios.<br>
+            -| Licencia: <a class="licencia">?</a> |-
+        </p>
+        <h3 class="descripcion centrado">
+            <a alt="Kepri3D" class="enlaceKepri h3" href="https://github.com/ramonarj/Kepri3D">Kepri3D</a>
+        </h3>
+        <p class="descripcion centrado">Motor 3D completamente funcional que utiliza OpenGL para las funciones de renderizado, Freeglut para la creación
+            de ventanas y gestión del input, OpenAL para renderizado de audio 3D y que también incluye un motor de físicas propio, mucho más sofisticado
+            que el de Kepri2D.<br>
+            -| Licencia: <a class="licencia" href="https://www.zlib.net/zlib_license.html">Zlib</a> |- <br>
+            <br>
+            ¿Qué permite <em>Kepri3D</em>?<br>
+            - Multijugador local a pantalla partida<br>
+            - Transparencias<br>
+            - Programación de shaders propios en GLSL<br>
+            - 
         </p>
     </div>
 

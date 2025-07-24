@@ -9,15 +9,33 @@ h1 {
 }
 h2 {
     text-align: center;
+    font-size: 36px;
 }
 h3 {
     text-align: center;
+    font-size: 28px;
+}
+h4 {
+    text-align: center;
+    font-size: 24px;
 }
 
-#enlaceKepri{
+.h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+.enlaceKepri{
     color: yellow;
 }
-#enlaceKepri:hover{
+.enlaceKepri:hover{
+    color: red;
+}
+
+.licencia{
+    color:#6af24b;
+}
+.licencia:hover{
     color: red;
 }
 
@@ -74,6 +92,12 @@ li a:hover {
     background-color: #b3c8e0;
         margin-left:60px;
     margin-right:60px;
+}
+
+.recauda{
+    margin-left:35vw;
+    margin-right:35vw;
+    background-color: #6af24b;
 }
 
 footer {
