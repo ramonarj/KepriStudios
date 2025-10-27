@@ -27,7 +27,7 @@
         }
         if(AppleDevice())
             window.location.replace("https://www.apple.com/es/app-store/");
-        else if(['Android'].includes(navigator.platform))
+        else if(/Android/i.test(navigator.userAgent))
             window.location.replace("https://play.google.com/store/apps/details?id=com.KepriStudios.AzulejoParejoPro");
         else
             window.location.replace("https://studios.keprigames.com/juegos/azulejo-parejo");
